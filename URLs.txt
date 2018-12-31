@@ -1,0 +1,38 @@
+Cwiczenie 1/2:
+http://localhost:8080/hibernate-demo/student?action=findAll
+http://localhost:8080/hibernate-demo/student?action=update&id=1&name=Pawel%20Karol
+http://localhost:8080/hibernate-demo/student?action=add&name=Agnieszka
+http://localhost:8080/hibernate-demo/student?action=delete&id=3
+
+Cwiczenie 3:
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&date=1988-02-28
+
+Cwiczenie 4:
+http://localhost:8080/hibernate-demo/computer?action=findAll
+http://localhost:8080/hibernate-demo/computer?action=add&name=MacBook Air&os=os x
+http://localhost:8080/hibernate-demo/computer?action=delete&id=1
+http://localhost:8080/hibernate-demo/computer?action=update&id=4&name=Atari&os=ATARIOS
+
+Cwiczenie 5:
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&date=1988-02-28&cid=3
+
+Cwiczenie 6:
+http://localhost:8080/hibernate-demo/address?action=findAll
+http://localhost:8080/hibernate-demo/address?action=add&city=Wejherowo&street=Prosta 12
+
+Cwiczenie 7:
+http://localhost:8080/hibernate-demo/address?action=add&city=Wejherowo&street=Prosta 12
+http://localhost:8080/hibernate-demo/computer?action=add&name=MacBook%20Air&os=OS%20X
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&date=1988-02-28&cid=3&aid=3
+
+Cwiczenie 8:
+http://localhost:8080/hibernate-demo/course?action=findAll
+http://localhost:8080/hibernate-demo/course?action=add&course=JJDD8
+http://localhost:8080/hibernate-demo/course?action=delete&id=1
+http://localhost:8080/hibernate-demo/student?action=update&id=2&name=Tomasz&surname=Smith&date=1988-02-28&cid=2&aid=2&courseid=2
+
+Cwiczenie 9:
+http://localhost:8080/hibernate-demo/student?action=findByDate&date=2001-01-01
+
+Cwiczenie 10:
+http://localhost:8080/hibernate-demo/course?action=summary
