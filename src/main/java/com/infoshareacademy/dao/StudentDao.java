@@ -34,6 +34,13 @@ public class StudentDao {
         return entityManager.find(Student.class, id);
     }
 
+    public List<Student> findByName(String name) {
+        final Query query = entityManager.createQuery("SELECT s FROM Student s WHERE s.name = :name");
+
+        query.setParameter("name", name);
+        return query.getResultList();
+    }
+
     public List<Student> findAll() {
         final Query query = entityManager.createQuery("SELECT s FROM Student s");
 
